@@ -1,0 +1,118 @@
+/*----------------------------------------------------------
+Modal Login and Register
+----------------------------------------------------------*/
+.Modal {
+  position: relative;
+  top: 30px;
+  max-width: 950px;
+  height: 400px;
+}
+
+/*----------------------------------------------------------
+  Modal Header 
+----------------------------------------------------------*/
+.Modal-Header {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  text-align: center;
+  padding: 15px 20px;
+}
+.Modal-Header .Modal-Title {
+  font-size: 1.5em;
+}
+
+/*----------------------------------------------------------
+  Modal Body 
+----------------------------------------------------------*/
+.Modal-Body {
+  display: grid;
+  place-items: center;
+  margin-top: 20px;
+}
+/*-----------------------------------
+  Modal Body - Formulary
+------------------------------------*/
+.Modal-Body .Form {
+  width: 70%;
+}
+/*-----------------------------------
+ Modal Body - Formulary - Form Group
+------------------------------------*/
+.Modal-Body .Form .Form-Group{
+  margin: -5px 0px;
+}
+.Modal-Body .Form .Form-Group .Form-Label {
+  position: relative;
+  top: 8px;
+  left: 13px;
+  background-color: white;
+  padding: 0 10px;
+  font-weight: bold;
+  font-size: 13px;
+  color: #757575;
+  z-index: 2;
+}
+.Modal-Body .Form .Form-Group .Form-Control {
+  position: relative;
+  top: -8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 8px;
+  width: 100%;
+  z-index: 1;
+}
+/*--------------------------------------------
+ Modal Body - Formulary - Container Buttons 
+--------------------------------------------*/
+.Form-Container-Buttons {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px;
+}
+/*------------------------------------------------------------
+ Modal Body - Formulary - Container Buttons - Submit Button
+------------------------------------------------------------*/
+.Form-Container-Buttons .Form-Submit-Button {
+  background-color: #007bff;
+  color: #fff;
+  border: 2px solid transparent;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.Form-Container-Buttons .Form-Submit-Button:hover {
+  border: 2px solid #007bff;
+  background-color: transparent;
+  color: #007bff;
+}
+/*------------------------------------------------------------
+ Modal Body - Formulary - Container Buttons - Button Google
+------------------------------------------------------------*/
+.Form-Container-Buttons .btn-google {
+  border: 2px solid #ccc; 
+  background-color: #ffffff; 
+
+  width: 130px;
+  height: 50px;
+  color: #757575; 
+  cursor: pointer;  
+}
+.Form-Container-Buttons .btn-google:hover {
+  background-color: #ffffff;
+}
+
+/*----------------------------------------------------------
+  Modal Footer 
+----------------------------------------------------------*/
+.Modal-Footer {
+
+}
+.Form-Link-Button {
+  color: #007bff;
+  text-decoration: none ;
+  font-size: 1em;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+

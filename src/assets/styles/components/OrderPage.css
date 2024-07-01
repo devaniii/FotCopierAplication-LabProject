@@ -1,0 +1,63 @@
+.order-page-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .order-form {
+    margin-top: 80px;
+    margin-bottom: 40px;
+    width: 600px;
+    max-width: 90%;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px 1px rgba(0, 0, 0, 0.349);
+  }
+  
+  .order-form h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .order-form .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .order-form label {
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .order-form input[type="file"] {
+    margin-top: 8px;
+  }
+  
+  .order-form .form-control {
+    margin-bottom: 10px; /* Espacio inferior */
+    margin-top: 10px; /* Espacio superior */
+    width: 100%; /* Ajustar al ancho completo del contenedor */
+    max-width: 100%; /* Ancho máximo permitido */
+    height: auto; /* Altura automática según el contenido */
+    padding: 10px; /* Añadir relleno */
+    box-sizing: border-box; /* Incluir padding en el ancho total */
+  }
+  
+  .order-form .form-control:focus {
+    border-color: #80bdff; /* Cambiar color del borde al enfocar */
+    outline: 0; /* Quitar el contorno al enfocar */
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Efecto de sombra al enfocar */
+  }
+  
+  .order-form select {
+    width: 100%;
+    margin-top: 8px;
+  }
+  
+  .order-form button[type="submit"] {
+    width: 100%;
+    margin-top: 20px;
+  }
+  

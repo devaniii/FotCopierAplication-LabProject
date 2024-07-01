@@ -1,0 +1,113 @@
+:root {
+    --colorText-Principal: #333;
+    --colorTextHover-Principal: rgb(109, 109, 109);
+
+    --colorBorder-Principal: rgb(211, 211, 211);
+}
+
+.contentHomeClient {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+}
+/*------------------------------------------------
+    TITLE HOME CLIENT  
+------------------------------------------------*/
+.titleHomeClient {
+    margin: 70px 20px 20px 0;
+
+    font-size: 2em;
+}
+/*------------------------------------------------
+    CONTENT HOME GRID TEMPLATE  
+------------------------------------------------*/
+.contentHomeClient .contentHome {
+    display: grid;
+    grid-template-columns: 400px auto; 
+    grid-template-rows: 205px 215px;
+    gap: 20px; 
+    
+    width: calc(100% - 70px);
+    height: 91vh;
+    margin: auto;
+}
+.contentHomeClient .contentHome .CP1 {
+    grid-column: 1; 
+    grid-row: span 2;
+}
+.contentHomeClient .contentHome .PPI2 {
+    grid-column: 2;
+    grid-row: 1; 
+}
+.contentHomeClient .contentHome .PPP3 {
+    grid-column: 2;
+    grid-row: 2;
+}
+.contentHomeClient .contentHome .IA4 {
+    grid-column: span 2; 
+}
+
+/*------------------------------------------------
+    CONTENT HOME STYLES SECTIONS        
+------------------------------------------------*/
+.contentHomeClient .contentHome .catalogo-precios {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgb(255, 255, 255);
+
+    border: 2px solid var(--colorBorder-Principal);
+    border-radius: 15px;
+}
+.contentHomeClient .contentHome .catalogo-precios .container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+
+    width: 88%;
+    height: 90%;
+}
+.contentHomeClient .contentHome .catalogo-precios .container .titleCP1 {
+    padding-bottom: 3px;
+    border-bottom: 2px solid var(--colorText-Principal);
+}
+.contentHomeClient .contentHome .catalogo-precios .container .listado-precios {
+    width: 100%;
+    height: 100%;
+}
+.contentHomeClient .contentHome .catalogo-precios .container .listado-precios .article {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+
+    width: 100%;
+    height: 50px;
+    margin: 20px 0;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    border: 2px solid var(--colorBorder-Principal);
+    border-radius: 10px;
+}
+
+
+.contentHomeClient .contentHome .panel-pedido-impresion,
+.contentHomeClient .contentHome .panel-pedido-productos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+
+    background-color: rgb(255, 255, 255);
+    border: 2px solid var(--colorBorder-Principal);    
+    border-radius: 15px;
+
+    cursor: pointer;
+}
+
